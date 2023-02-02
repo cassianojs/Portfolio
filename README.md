@@ -1,3 +1,3 @@
 # My Portfolio
 
-## Simple website created in react
+## Simple website created with react
