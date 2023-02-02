@@ -1,0 +1,120 @@
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p{
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+    margin-left: 30px;
+    margin-bottom: 200px;
+}
+
+.btn-main{
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #f0f8ff;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, rgba(180, 171, 20, 1) 0%, rgba(255, 59, 0, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(180, 171, 20, 1) 0%, rgba(255, 59, 0, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(180, 171, 20, 1) 0%, rgba(255, 59, 0, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF3B00', endColorstr='#B4AB14', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(180, 171, 20, 1) 0%, rgba(255, 59, 0, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(180, 171, 20, 1) 0%, rgba(255, 59, 0, 1) 100%);
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.btn-main:hover {
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, #B4AB14DE 0%, #FF3B00D6 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, #B4AB14DE 0%, #FF3B00D6 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, #B4AB14DE 0%, #FF3B00D6 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF3B00', endColorstr='#B4AB14', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, #B4AB14DE 0%, #FF3B00D6 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, #B4AB14DE 0%, #FF3B00D6 100%);
+}
+
+.btn-main:active {
+  border-bottom-color: #FFF;
+  border-right-color: #FFF;
+  border-top-color: #000;
+  border-left-color: #000;
+}
+
+.socials{
+  margin-bottom: 200px;
+}
+
+.social-size {
+    margin: 20px;
+  }
+
+.sub-section-about {
+    display: flex;
+    justify-content: space-around;
+
+}
+  
+.sub-section-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headshot {
+    width: 200px;
+    border-radius: 50%;
+    background-color: coral;
+}
+  
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.sub-section-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}

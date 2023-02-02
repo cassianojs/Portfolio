@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: right;
+    font-size: 30px;
+}
+nav a {
+    display: block;
+    color: #f0f8ff;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+
+  nav a:hover {
+    background-color: rgb(39, 63, 116);
+  }
+
+  .logo {
+    height: 80px;
+    margin: 20px;
+}
